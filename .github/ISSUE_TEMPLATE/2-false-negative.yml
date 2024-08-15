@@ -38,6 +38,7 @@ body:
       required: true
   - type: textarea
     attributes:
+      id: sysinfo
       label: "Generated System Information"
       description: "Run `cargo semver-checks --bugreport` and copy-paste the output here."
     validations:
